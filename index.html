@@ -60,9 +60,9 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
-        const currentYearSpan = document.getElementById('currentYear');
+        const copyrightElement = document.querySelector('.copyright');
         const currentYear = new Date().getFullYear();
-        currentYearSpan.textContent = currentYear;
+        copyrightElement.innerHTML = `© ${currentYear} Rúben Araújo.`;
     });
   </script>
 
