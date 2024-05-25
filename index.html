@@ -58,6 +58,16 @@
     <p class="copyright">© 2022 Rúben Araújo.</p>
   </div>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const currentYearSpan = document.getElementById('currentYear');
+        const currentYear = new Date().getFullYear();
+        currentYearSpan.textContent = currentYear;
+    });
+  </script>
+
+  
+  
 
   </div>
 
